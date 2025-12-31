@@ -1,0 +1,38 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #0067A3;
+    color: white;
+  }
+  
+  .footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .footer-left {
+    display: flex;
+    gap: 36px;
+  }
+  
+  .footer-right {
+    white-space: nowrap;
+  }
+
+  footer b {
+    font-weight: 400;
+  }
+  
+  @media (max-width: 360px) {
+    .footer {
+      display: none;
+    }
+  }
+  
